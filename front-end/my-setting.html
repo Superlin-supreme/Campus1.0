@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/my-setting.css"/>
+	<script src="js/my-setting.js"></script>
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+</head>
+<body>
+	<div id="mask">		
+	</div>
+	<div id="delete-message-box" class="pop-up-box">
+		<div id="close-delete-message" class="close-box"></div>
+		<div class="delete-headline"><img src="img/delete-headline.png"></div>
+		<div class="confirm-delete">你确定要删除这条消息吗？</div>
+		<button class="button" id="delete-message-confirm">确定</button>
+	</div>
+	<header>
+		<div class="header-menu">			
+			<a href="login.html"><img src="img/exit-button.png" class="header-button"/></a>
+			<a href="my-setting.html"><img src="img/setting-button.png" class="header-button"/></a>			
+			<a href="my-information.html"><img src="img/information-button.png" class="header-button"/></a>
+			<a href="my-home.html"><img src="img/home-button.png" class="header-button"/></a>
+			<div id="header-search">
+				<div id="search-1"><input type="text" name="search" value="" id="search" placeholder="大家都在搜索..."/></div>
+				<div id="search-2"><a href="###"><img src="img/search-button.png" id="search-button"/></a></div>
+			</div>
+		</div>
+	</header>
+	<div id="container-bg">
+		<div id="container">
+			<img src="img/user-1.jpg" id="user-portrait"/>
+			<div id="user-name">Superlin</div>
+			<div id="container-menu">
+				<div class="menu-pillar"></div>
+				<div id="menu-basic-information" class="mid-menu"></div>
+				<div id="menu-pillar-2" class="menu-pillar"></div>
+				<div id="menu-level-up" class="mid-menu"></div>
+			</div>	
+			<div id="content">
+				<div id="system-message" class="content-box">
+					<div class="content-headline">系统消息</div>
+					<div class="content-triangle"></div>
+					<table id="system-message-table-1">
+						<tr>							
+							<td width="50px">来源：</td>
+							<td style="text-align:left;">管理员</td>
+							<td rowspan="2"><button class="delete-message">删除</button></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="add-style-1">你发布的帖子涉嫌非法信息，已被删除</td>
+						</tr>
+					</table>
+					<div class="content-triangle"></div>
+					<table id="system-message-table-2">
+						<tr>							
+							<td width="50px">来源：</td>
+							<td style="text-align:left;">管理员</td>
+							<td rowspan="2"><button class="delete-message">删除</button></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="add-style-1">你发布的帖子信息有误，正在接受审核</td>
+						</tr>
+					</table>
+				</div>
+				<div id="user-feedback" class="content-box">
+					<div class="content-headline">反馈意见</div>
+					<div class="content-triangle"></div>
+					<div class="welcome-feedback">欢迎向我们提供意见或建议！<br>
+						我们的邮箱：419084766@qq.com<br>
+						或直接发送：
+					</div>
+					<textarea></textarea>
+					<button class="button">发送</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<a href="###">关于侃噗</a> | <a href="###">广告服务</a> | <a href="###">免责声明</a> | <a href="###">版权隐私</a> | 
+		<a href="###">联系我们</a><br>
+		Quanta量子服务中心·请开始你们的表演团队
+	</footer>
+</body>
+</html>

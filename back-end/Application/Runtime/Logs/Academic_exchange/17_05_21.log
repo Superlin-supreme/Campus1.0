@@ -1,0 +1,101 @@
+[ 2017-05-21T00:03:13+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2017-05-21T00:03:17+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484296' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484296' AND password='123' )  [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SELECT * FROM `user_information` WHERE ( user_id=26 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `post` WHERE ( user_id=26 ) ORDER BY release_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=15 ) ORDER BY release_time asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=14 ) ORDER BY release_time asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=13 ) ORDER BY release_time asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=12 ) ORDER BY release_time asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=11 ) ORDER BY release_time asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_information` WHERE ( user_id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=1 ) ORDER BY release_time asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_information` WHERE ( user_id=25 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_information` WHERE ( user_id=26 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_information` WHERE ( user_id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: meadl C:\wamp\www\Campus\Application\Runtime\Cache\Academic_exchange\84377e1f72c75d4027bbb71365b8b9e6.php 第 126 行.
+NOTIC: [8] Undefined variable: meadl C:\wamp\www\Campus\Application\Runtime\Cache\Academic_exchange\84377e1f72c75d4027bbb71365b8b9e6.php 第 126 行.
+NOTIC: [8] Undefined variable: meadl C:\wamp\www\Campus\Application\Runtime\Cache\Academic_exchange\84377e1f72c75d4027bbb71365b8b9e6.php 第 126 行.
+NOTIC: [8] Undefined variable: meadl C:\wamp\www\Campus\Application\Runtime\Cache\Academic_exchange\84377e1f72c75d4027bbb71365b8b9e6.php 第 126 行.
+NOTIC: [8] Undefined variable: meadl C:\wamp\www\Campus\Application\Runtime\Cache\Academic_exchange\84377e1f72c75d4027bbb71365b8b9e6.php 第 126 行.
+NOTIC: [8] Undefined variable: meadl C:\wamp\www\Campus\Application\Runtime\Cache\Academic_exchange\84377e1f72c75d4027bbb71365b8b9e6.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001855s ]
+
+[ 2017-05-21T00:03:17+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/medal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+ERR: 非法操作:medal
+
+[ 2017-05-21T00:03:17+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-05-21T00:03:18+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002555s ]
+
+[ 2017-05-21T00:03:18+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/%E6%A0%87%E7%AD%BE1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+ERR: 非法操作:标签1
+
+[ 2017-05-21T00:03:18+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/%E6%A0%87%E7%AD%BE2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+ERR: 非法操作:标签2
+

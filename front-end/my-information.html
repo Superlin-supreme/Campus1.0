@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/my-information.css"/>
+	<script src="js/my-information.js"></script>
+	<script src="http://www.jq22.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/iscroll-zoom.js"></script>
+	<script src="js/hammer.js"></script>
+    <script src="js/lrz.all.bundle.js"></script>
+	<script src="js/jquery.photoClip.js"></script>
+</head>
+<body>
+	<div id="mask">
+	</div>
+	<div id="information-change-box" class="pop-up-box">
+		<div id="close-information-change" class="close-box"></div>
+		<div class"information-change-headline"><img src="img/information-change-headline.png"></div>
+		<table>
+			<tr>
+				<td>姓名：</td>
+				<td><input type="text" id="" value=""/></td>
+				<td>学校：</td>
+				<td>
+					<select>
+						<option value="广东外语外贸大学">广东外语外贸大学</option>
+						<option value="广东工业大学">广东工业大学</option>
+						<option value="中山大学">中山大学</option>
+						<option value="华南理工大学">华南理工大学</option>
+					</select>
+				</td>
+				<td>学院：</td>
+				<td>
+					<select>
+						<option value="信息与科学技术学院">信息与科学技术学院</option>
+						<option value=">新闻与传播学院">新闻与传播学院</option>
+						<option value="经济与贸易学院">经济与贸易学院</option>
+						<option value="英语教育学院">英语教育学院</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>专业：</td>
+				<td>
+					<select>
+						<option value="软件工程">软件工程</option>
+						<option value="计算机科学与技术">计算机科学与技术</option>
+						<option value="网络工程">网络工程</option>
+						<option value="电子商务">电子商务</option>
+						<option value="信息管理">信息管理</option>
+					</select>
+				</td>
+				<td>学号：</td>
+				<td><input type="text" id="" value=""/></td>
+				<td>手机号：</td>
+				<td><input type="text" id="" value=""/></td>
+			</tr>
+			<tr>
+				<td>昵称：</td>
+				<td><input type="text" id="" value=""/></td>
+				<td>出生日期：</td>
+				<td><input type="text" id="" value=""/></td>							
+				<td>邮箱：</td>
+				<td><input type="text" id="" value=""/></td>
+			</tr>
+		</table>
+		<button id="confirm-change" class="button">确认修改</button>
+	</div>
+	<div id="pwd-change-box" class="pop-up-box">
+		<div class="close-box"></div>
+		<div class="pwd-change-headline"><img src="img/pwd-change-headline.png"></div>
+		<table class="input-new-pwd">
+			<tr>
+				<td>请输入旧密码：</td>
+				<td><input type="password"/></td>
+			</tr>
+			<tr>
+				<td>请输入新密码：</td>
+				<td><input type="password"/></td>
+			</tr>
+			<tr>
+				<td>请重新输入新密码：</td>
+				<td><input type="password"/></td>
+			</tr>
+		</table>
+		<button class="button">确定</button>
+	</div>				
+	<div id="change-portrait-box" class="pop-up-box">
+		<div id="close-change-portrait" class="close-box"></div>
+		<div id="view"></div>
+		<div id="clipArea"></div>
+		<input type="file" id="file">
+		<button id="clipBtn">截取</button>
+		<button id="confirm-change-portrait">确定修改</button>
+	</div>
+	<div id="money-charge-box" class="pop-up-box">
+		<div class="close-box"></div>
+		<div class="money-charge-headline"><img src="img/money-charge-headline.png"></div>
+		<div class="input-money-charge">请输入充值金额：<input type="text"/></div>
+		<button class="button">确定</button>
+	</div>
+	<div id="delete-friend-box" class="pop-up-box">
+		<div class="close-box"></div>
+		<div class="delete-friend"><img src="img/delete-friend.png"></div>
+		<div class="confirm-delete">你确定要删除这这位好友吗？</div>
+		<button class="button" id="confirm-delete-friend">确定</button>
+	</div>
+	<header>
+		<div class="header-menu">			
+			<a href="login.html"><img src="img/exit-button.png" class="header-button"/></a>
+			<a href="my-setting.html"><img src="img/setting-button.png" class="header-button"/></a>			
+			<a href="my-information.html"><img src="img/information-button.png" class="header-button"/></a>
+			<a href="my-home.html"><img src="img/home-button.png" class="header-button"/></a>
+			<div id="header-search">
+				<div id="search-1"><input type="text" name="search" value="" id="search" placeholder="大家都在搜索..."/></div>
+				<div id="search-2"><a href="###"><img src="img/search-button.png" id="search-button"/></a></div>
+			</div>
+		</div>
+	</header>
+	<div id="container-bg">
+		<div id="container">
+			<img src="img/user-1.jpg" id="user-portrait"/>
+			<div id="user-name">Superlin</div>
+			<button id="change-portrait">修改头像</button>	
+			<div id="container-menu">
+				<div class="menu-pillar"></div>
+				<div id="menu-basic-information" class="mid-menu"></div>
+				<div id="menu-pillar-2" class="menu-pillar"></div>
+				<div id="menu-level-up" class="mid-menu"></div>
+				<div id="menu-pillar-3" class="menu-pillar"></div>
+				<div id="menu-friend-information" class="mid-menu"></div>
+			</div>	
+			<div id="content">
+				<div id="basic-information" class="content-box">
+					<div class="content-headline">基础信息</div>
+					<div class="content-triangle"></div>
+					<table id="basic-information-table">
+						<tr>
+							<td>姓名：</td>
+							<td class="add-style-1"></td>
+							<td>学校：</td>
+							<td class="add-style-1"></td>
+							<td>学院：</td>
+							<td class="add-style-1"></td>
+						</tr>
+						<tr>
+							<td>专业：</td>
+							<td class="add-style-1"></td>
+							<td>学号：</td>
+							<td class="add-style-1"></td>
+							<td>手机号：</td>
+							<td class="add-style-1"></td>
+						</tr>
+						<tr>
+							<td>昵称：</td>
+							<td class="add-style-1"></td>
+							<td>出生日期：</td>
+							<td class="add-style-1"></td>							
+							<td>邮箱：</td>
+							<td class="add-style-1"></td>
+						</tr>
+					</table>
+					<button id="basic-information-change">修改</button>
+					<button id="pwd-change">更换密码</button>
+				</div>
+				<div id="level-up" class="content-box">
+					<div class="content-headline">成长统计</div>
+					<div class="content-triangle"></div>
+					<table id="level-up-table">
+						<tr>
+							<td>等级：</td>
+							<td class="add-style"></td>
+							<td>金币：</td>
+							<td class="add-style"></td>
+						</tr>
+						<tr>
+							<td>在线时间：</td>
+							<td></td>
+							<td>帖子：</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>问答：</td>
+							<td></td>
+							<td>好友：</td>
+							<td></td>
+						</tr>
+					</table>
+					<button id="money-charge">充值金币</button>
+				</div>
+				<div id="friend-information" class="content-box">
+					<div class="content-headline">好友管理</div>
+					<div class="content-triangle"></div>
+					<table id="friend-information-table-1" >
+						<tr>
+							<td rowspan="2"><img src="###"/>头像</td>
+							<td>昵称：</td>
+							<td class="add-style-2"></td>
+							<td>性别：</td>
+							<td class="add-style-2"></td>
+							<td>勋章：</td>
+							<td class="add-style-2"></td>
+							<td rowspan="2"><button class="delete-friend">删除</button></td>
+						</tr>
+						<tr>
+							<td>等级：</td>
+							<td></td>
+							<td>学校：</td>
+							<td></td>
+							<td>专业：</td>
+							<td></td>
+						</tr>
+					</table>
+					<table id="friend-information-table-2">
+						<tr>
+							<td rowspan="2"><img src="###"/>头像</td>
+							<td>昵称：</td>
+							<td class="add-style-2"></td>
+							<td>性别：</td>
+							<td class="add-style-2"></td>
+							<td>勋章：</td>
+							<td class="add-style-2"></td>
+							<td rowspan="2"><button class="delete-friend">删除</button></td>
+						</tr>
+						<tr>
+							<td>等级：</td>
+							<td></td>
+							<td>学校：</td>
+							<td></td>
+							<td>专业：</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<a href="###">关于侃噗</a> | <a href="###">广告服务</a> | <a href="###">免责声明</a> | <a href="###">版权隐私</a> | 
+		<a href="###">联系我们</a><br>
+		Quanta量子服务中心·请开始你们的表演团队
+	</footer>
+</body>
+</html>

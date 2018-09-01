@@ -1,0 +1,269 @@
+[ 2017-05-14T10:54:52+08:00 ] ::1 /Campus/index.php/Academic_exchange/Controller/UserManagementController.class.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.065099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031668s ]
+ERR: 无法加载控制器:Controller
+
+[ 2017-05-14T10:55:09+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011885s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033230s ]
+
+[ 2017-05-14T10:55:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\Application\Academic_exchange\Controller\UserManagementController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-05-14T10:57:31+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484295' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484295' AND password='123' )  [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SELECT * FROM `user_information` WHERE ( user_id=25 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `post` WHERE ( user_id=25 ) ORDER BY release_time desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2017-05-14T10:57:49+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0667s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484296' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484296' AND password='123' )  [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SELECT * FROM `user_information` WHERE ( user_id=26 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `post` WHERE ( user_id=26 ) ORDER BY release_time desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=5 )  [ RunTime:0.0281s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=8 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-05-14T10:59:36+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-05-14T10:59:41+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-05-14T10:59:43+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-05-14T10:59:43+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+
+[ 2017-05-14T10:59:44+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+
+[ 2017-05-14T10:59:45+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-05-14T10:59:48+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-05-14T10:59:50+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-05-14T11:33:45+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012768s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\Application\Academic_exchange\Controller\UserManagementController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011037s ]
+
+[ 2017-05-14T12:13:07+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' AND password='123' )  [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\Application\Academic_exchange\Controller\UserManagementController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2017-05-14T12:13:15+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484296' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484296' AND password='123' )  [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\Campus\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SELECT * FROM `user_information` WHERE ( user_id=26 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `post` WHERE ( user_id=26 ) ORDER BY release_time desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=5 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=8 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `comment` WHERE ( post_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2017-05-14T12:17:09+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-05-14T12:17:11+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+
+[ 2017-05-14T12:17:11+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-05-14T12:17:12+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2017-05-14T12:17:13+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-05-14T12:17:13+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-05-14T12:17:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+
+[ 2017-05-14T12:17:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-05-14T12:17:15+08:00 ] ::1 /Campus/index.php/Academic_exchange/UserManagement/img/user-menu-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+

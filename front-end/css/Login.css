@@ -1,0 +1,274 @@
+body{
+	font-family: 微软雅黑;
+}
+
+body,ul,li {
+    margin:0;
+    padding:0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	font-family: 微软雅黑;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+button{
+	font-family: 微软雅黑;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+
+textarea{
+	resize: none;
+}
+
+/*弹出框遮罩层*/
+#mask{
+	background: #000;
+	opacity: 0.75;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index:100;
+	display: none;
+}
+/*弹出框遮罩层*/
+
+#registration-box{
+	width: 700px;
+	height: 450px;
+	background: rgb(255,255,255);
+	position: fixed;
+	z-index:101;
+	display: none;
+}
+
+#registration-box #close-box{
+	width: 50px;
+	height: 50px;
+	background: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left:650px;
+	cursor: pointer;
+}
+
+#registration-box .headline{
+	width: 700px;
+	height: 130px;
+}
+
+#registration-box #real-form{
+	position: absolute;
+	left: 70px;
+	top: 30px;
+}
+
+#registration-box #cusp-1{
+	position: absolute;
+	left: 200px;
+	top: 40px;
+}
+
+#registration-box #registrater{
+	position: absolute;
+	left: 290px;
+	top: 30px;
+}
+
+#registration-box #cusp-2{
+	position: absolute;
+	left: 410px;
+	top: 40px;
+}
+
+#registration-box #confirm{
+	position: absolute;
+	left: 500px;
+	top: 30px;
+}
+
+#registration-box #real-information{
+	min-width: 310px;
+	height: 310px;
+	position: relative;
+	left: 170px;
+	top: -20px;
+}
+
+#registration-box .add-style{
+	text-align: right;
+	min-width: 82px;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+#registration-box .add-style-2{
+	color:rgb(255,51,51);
+	min-width: 100px;
+}
+
+#registration-box #real-information #move-registrater{
+	left: 110px;
+	top: 10px;
+}
+
+#registration-box #registrater-information{
+	min-width: 350px;
+	height: 250px;
+	position: relative;
+	left: 170px;
+	display: none;
+}
+
+#registration-box #confirm-information{
+	width: 640px;
+	min-height: 200px;
+	position: relative;
+	left: 30px;
+	display: none;
+}
+
+#registration-box #back-registrater{
+	left: 180px;
+}
+
+#registration-box #confirm-registrater{
+	left: 230px;
+}
+
+
+#registration-box #back-real{
+	left: 50px;
+	top: 50px;
+}
+
+#registration-box #move-confirm{
+	left: 100px;
+	top: 50px;
+}
+
+#registration-box input{
+	width: 220px;
+	height: 23px;
+	font-size: 20px;
+}
+
+#registration-box select{
+	width: 224px;
+	height: 23px;
+	font-size: 16px;
+}
+
+#registration-box table{
+	border-collapse: separate; 
+	border-spacing:0 5px;
+}
+
+#registration-box button{
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	position: relative;
+}
+
+.button{
+	font-size: 13px;
+	font-family: 微软雅黑;
+	color: #ffffff;
+	width: 75px;
+	height: 25px;
+	background: rgb(255,51,51);
+	border: none;
+	cursor: pointer;
+}
+
+#content-bg{
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	min-width: 970px;
+	background: url(../img/login-bg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#content{
+	width: 970px;
+	min-height: 500px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#logo{
+	position: absolute;
+}
+
+#login-box{
+	width: 330px;
+	height: 390px;
+	padding: 50px 30px;
+	background: rgba(255,255,255,.5);
+	position: absolute;
+	left: 60%;
+}
+
+#login-box .headline-2{
+	width: 330px;
+	height: 120px;
+}
+
+#login-box .input-word{
+	width: 330px;
+	height: 100px;
+}
+
+#login-box #pwd-view{
+	position: relative;
+	top:-35px;
+	left: 290px;
+	cursor: pointer;
+}
+
+#login-box input{
+	width: 330px;
+	height: 40px;
+	border-width: 0 0 3px 0;
+	font-size: 20px;
+}
+
+#login-box .user-select{
+	width: 330px;
+	height: 60px;
+}
+
+#login-box a{
+	color: rgb(255,51,51);
+	font-weight: bold;
+}
+
+#login-box .user-select #registration{
+	float: left;
+}
+
+#login-box .user-select #forget-pwd{
+	float: right;
+}
+
+#login-box .tourists-enter{
+	text-align: center;
+	margin-top: 20px;
+}
+

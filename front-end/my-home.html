@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/my-home.css"/>
+	<script src="js/my-home.js"></script>
+	<link rel="stylesheet" href="lib/css/jquery.mCustomScrollbar.min.css"/>
+	<link rel="stylesheet" href="dist/css/jquery.emoji.css"/> 
+	<script src="lib/script/jquery.min.js"></script>
+	<script src="lib/script/jquery.mCustomScrollbar.min.js"></script>
+	<script src="dist/js/jquery.emoji.min.js"></script>
+	<link href="css/iconfont.css" rel="stylesheet" type="text/css"/>
+    <link href="css/fileUpload.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/fileUpload.js"></script>
+</head>
+<body>
+	<div id="mask">
+	</div>
+	<div id="reply-box" class="pop-up-box">
+		<div id="close-reply" class="close-box"></div>
+		<div class"reply-headline"><img src="img/reply-headline.png"></div>
+		<textarea></textarea>
+		<button class="button" id="reply-confirm">发送</button>
+	</div>
+	<div id="add-plan-box" class="pop-up-box">
+		<div id="close-add-plan" class="close-box"></div>
+		<div class"add-plan-headline"><img src="img/add-plan-headline.png"></div>
+		<textarea></textarea>
+		时间：<input type="text" class="plan-ifm"/>
+		地点：<input type="text" class="plan-ifm"/>
+		<select class="button">
+			<option>生活</option>
+			<option>学习</option>
+		</select>
+		<button class="button">添加</button>
+	</div>
+	<div id="Signature-change-box" class="pop-up-box">
+		<div id="close-Signature-change" class="close-box"></div>
+		<div class"reply-headline"><img src="img/signature-change-headline.png"></div>
+		<textarea></textarea>
+		<button class="button">确定</button>
+	</div>
+	<div id="delete-post-box" class="pop-up-box">
+		<div id="close-delete-post" class="close-box"></div>
+		<div class="delete-headline"><img src="img/delete-headline.png"></div>
+		<div class="confirm-delete">你确定要删除这个帖子吗？</div>
+		<button class="button" id="delete-post-confirm">确定</button>
+	</div>
+	<div id="delete-reply-box" class="pop-up-box">
+		<div class="close-box"></div>
+		<div class="delete-headline"><img src="img/delete-headline.png"></div>
+		<div class="confirm-delete">你确定要删除这个回复吗？</div>
+		<button class="button" id="delete-reply-confirm">确定</button>
+	</div>
+	<div id="delete-plan-box" class="pop-up-box">
+		<div class="close-box"></div>
+		<div class="delete-headline"><img src="img/delete-headline.png"></div>
+		<div class="confirm-delete">你确定要删除这条计划吗？</div>
+		<button class="button" id="delete-plan-confirm">确定</button>
+	</div>
+	<div id="distribution-box" class="pop-up-box">
+		<div class="close-box"></div>
+		<div class="distribution-headline"><img src="img/distribution-headline.png"></div>
+		<div class="input-distribution">请输入金额：<input type="text" class="plan-ifm" id="distribution-number"/></div>
+		<button class="button" id="distribution-confirm">确定</button>
+	</div>
+	<div id="add-friend-box" class="pop-up-box">
+		<div class="close-box" id="close-add-friend"></div>
+		<div class="delete-headline"><img src="img/add-friend-headline.png"></div>
+		<table>
+			<tr>
+				<td rowspan="2"><img src="###"/>头像</td>
+				<td>昵称：</td>
+				<td class="add-style-2"></td>
+				<td>性别：</td>
+				<td class="add-style-2"></td>
+				<td>勋章：</td>
+				<td class="add-style-2"></td>
+				<td rowspan="2"><button class="add-friend-button">添加</button></td>
+			</tr>
+			<tr>
+				<td>等级：</td>
+				<td></td>
+				<td>学校：</td>
+				<td></td>
+				<td>专业：</td>
+				<td></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td rowspan="2"><img src="###"/>头像</td>
+				<td>昵称：</td>
+				<td class="add-style-2"></td>
+				<td>性别：</td>
+				<td class="add-style-2"></td>
+				<td>勋章：</td>
+				<td class="add-style-2"></td>
+				<td rowspan="2"><button class="add-friend-button">添加</button></td>
+			</tr>
+			<tr>
+				<td>等级：</td>
+				<td></td>
+				<td>学校：</td>
+				<td></td>
+				<td>专业：</td>
+				<td></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td rowspan="2"><img src="###"/>头像</td>
+				<td>昵称：</td>
+				<td class="add-style-2"></td>
+				<td>性别：</td>
+				<td class="add-style-2"></td>
+				<td>勋章：</td>
+				<td class="add-style-2"></td>
+				<td rowspan="2"><button class="button">添加</button></td>
+			</tr>
+			<tr>
+				<td>等级：</td>
+				<td></td>
+				<td>学校：</td>
+				<td></td>
+				<td>专业：</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<header>
+		<div class="header-menu">			
+			<a href="login.html"><img src="img/exit-button.png" class="header-button"/></a>
+			<a href="my-setting.html"><img src="img/setting-button.png" class="header-button"/></a>			
+			<a href="my-information.html"><img src="img/information-button.png" class="header-button"/></a>
+			<a href="my-home.html"><img src="img/home-button.png" class="header-button"/></a>
+			<div id="header-search">
+				<div id="search-1"><input type="text" name="search" value="" id="search" placeholder="大家都在搜索..."/></div>
+				<div id="search-2"><a href="###"><img src="img/search-button.png" id="search-button"/></a></div>
+			</div>
+		</div>
+	</header>
+	<div id="container-bg">
+		<div id="container">
+			<div class="user-zone">
+				<img src="img/user-1.jpg" id="user-portrait"/>
+				<div id="user-name">Superlin</div>
+				<div id="user-level"><img src="img/Lv.3.png"></div>
+				<div class="user-Signature"><img src="img/signature.png"></div>
+				<form action="" method="">                                         
+					<div class="button" id="Signature-change">修改</div>
+					<div id="Signature" border="0">今天天气很好啊</div>
+				</form>
+				<div class="Medal"><img src="img/medal-bg.png"></div>
+				<table id="user-Medal" border="1px">
+					<tr>
+						<td><img src="" class="medal-picture"/>勋章图</td>
+						<td><img src="" class="medal-picture"/>勋章图</td>
+						<td><img src="" class="medal-picture"/>勋章图</td>
+					</tr>
+				</table>
+			</div>
+			<div id="public-section">
+				<div id="user-share">
+					<div id="triangle-1"></div>
+					<div class="question"><img src="img/question.png"/></div>
+					<img src="img/share-top.png" id="share-top"/>
+					<form action="" method="">
+						<textarea id="editor" contenteditable="true"></textarea>
+						<input type="submit" value="发表" class="button" id="share-text-submit"/>
+						<div id="chose-share-type">
+							<input type="radio" name="share-type" value="post" class="" id="share-post"/>帖子
+							<input type="radio" name="share-type" value="QA" class="" id=""/>问答
+						</div>
+						<div id="set-QA-money">
+							悬赏金额：<input type="text" name="share-type" class="" id="" style="width: 30px;background: none; border: 1px solid #808080;"/>
+						</div>
+					</form>
+					<button id="btn" class="btn btn-sm btn-default" style="background: url(img/emoji-button.png);background-repeat: no-repeat;">表情</button>
+					<ul>
+						<li>
+							<select class="button">
+								<option>匿名</option>
+								<option>实名</option>
+							</select>
+						</li>
+						<li>
+							<select class="button">
+								<option value="广东外语外贸大学">广东外语外贸大学</option>
+								<option value="广东工业大学">广东工业大学</option>
+								<option value="中山大学">中山大学</option>
+								<option value="华南理工大学">华南理工大学</option>
+							</select>
+						</li>
+						<li>
+							<select class="button">
+								<option value="不限学院">不限学院</option>
+								<option value="信息与科学技术学院">信息与科学技术学院</option>
+								<option value="新闻与传播学院">新闻与传播学院</option>
+								<option value="经济与贸易学院">经济与贸易学院</option>
+								<option value="英语教育学院">英语教育学院</option>
+							</select>					
+						</li>
+						<li>
+							<select class="button">
+								<option value="不限模块">不限模块</option>
+								<option value="学术">学术</option>
+								<option value="生活">生活</option>
+							</select>
+						</li>
+					</ul>
+				</div>
+				<div id="fileUploadContent" class="fileUploadContent"></div>
+				<div id="public-menu" class="kanpu-menu">
+					<ul>
+						<li><a href="###" id="all-post">主题帖</a></li>
+						<li><a href="###" id="all-QA">主题问答</a></li>
+					</ul>	
+				</div>
+			<div id="select-area">
+				<select class="button">
+					<option value="广东外语外贸大学">广东外语外贸大学</option>
+					<option value="广东工业大学">广东工业大学</option>
+					<option value="中山大学">中山大学</option>
+					<option value="华南理工大学">华南理工大学</option>
+				</select>
+				<select class="button">
+					<option value="不限学院">不限学院</option>
+					<option value="信息与科学技术学院">信息与科学技术学院</option>
+					<option value="新闻与传播学院">新闻与传播学院</option>
+					<option value="经济与贸易学院">经济与贸易学院</option>
+					<option value="英语教育学院">英语教育学院</option>
+				</select>	
+				<select class="button">
+					<option value="不限模块">不限模块</option>
+					<option value="学术">学术</option>
+					<option value="生活">生活</option>
+				</select>
+				<button class="button">筛选</button>
+			</div>
+			<div id="all-post-area" class="all-discuss-area">				
+				<table class="host-container">
+					<tr height="25px">
+						<td width="50px" rowspan="2" class="add-border">
+							<img src="img/user-1.jpg" class="host-portrait"/>
+						</td>
+						<td class="host-name"><a href="">Superlin</a></td>
+						<td class="host-level"><img src="img/host-Lv.3.png"></td>
+						<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+					</tr>
+					<tr height="20px" style="font-size:12px;">
+						<td colspan="3" class="add-border">2017-5-17 23:32:06</td>
+					</tr>
+					<tr class="add-border" style="font-size:16px;">
+						<td colspan="4">#今天我邂逅了那个她#今天下课后，日常一饭，排队的时候，忽然。。。</td>
+					</tr>
+					<tr>					
+						<td colspan="4">
+							<table style="width:450px; height:50px;" class="add-border">
+								<tr>
+									<td><img src="img/1.jpg" class="post-photo"/></td>
+									<td><img src="img/2.jpg" class="post-photo"/></td>
+									<td><img src="img/3.jpg" class="post-photo"/></td>
+									<td><img src="img/4.png" class="post-photo"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"><button class="delete-post">删除</button></td>
+						<td>
+							<table style="width:250px; font-size:14px;">
+								<tr>
+									<td>阅读量（0）</td>
+									<td><a href="###" class="open-reply">评论（2）</a></td>
+									<td><a href="###">转发（0）</a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+						<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-3.jpg" class="layer-portrait"/></td>
+						<td colspan="3" style="font-size:14px;"><a href="###">Hu-Wei</a>:厉害了我的哥</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-1.jpg" class="layer-portrait"/></td>
+						<td colspan="2" style="font-size:14px;"><a href="###">Hu-Wei</a>:当然啦</td>
+						<td rowspan="2"><button class="delete-reply">删除</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+				</table>
+				<table class="host-container">
+					<tr height="25px">
+						<td width="50px" class="add-border" rowspan="2">
+							<img src="img/user-2.jpg" class="host-portrait"/>
+						</td>
+						<td class="host-name"><a href="###">Li-Na</a></td>
+						<td class="host-level"><img src="img/host-Lv.1.png"></td>
+						<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+					</tr>
+					<tr height="20px" style="font-size:12px;">
+						<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+					</tr>
+					<tr class="add-border" style="font-size:16px;">
+						<td colspan="4">Content(16px)</td>
+					</tr>
+					<tr>					
+						<td colspan="4">
+							<table style="width:450px; height:50px;" class="add-border">
+								<tr>
+									<td><img src="img/5.jpg" class="post-photo"/></td>
+									<td><img src="img/6.jpg" class="post-photo"/></td>
+									<td><img src="img/7.jpg" class="post-photo"/></td>
+									<td><img src="img/8.png" class="post-photo"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"></td>
+						<td>
+							<table style="width:250px; font-size:14px;" >
+								<tr>
+									<td>阅读量（0）</td>
+									<td><a href="###" class="open-reply">评论（0）</a></td>
+									<td><a href="###">转发（0）</a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+						<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-1.jpg" class="layer-portrait"/></td>
+						<td colspan="2" style="font-size:14px;"><a href="###">Superlin</a>:厉害啦啦</td>
+						<td rowspan="2"><button class="delete-reply">删除</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+				</table>		
+			</div>
+			<div id="all-QA-area" class="all-discuss-area">	
+				<table class="host-container">
+					<tr height="25px">
+						<td width="50px" class="add-border" rowspan="2">
+							<img src="img/user-1.jpg" class="host-portrait"/>
+						</td>
+						<td class="host-name"><a href="###">Superlin</a></td>
+						<td class="host-level"><img src="img/host-Lv.1.png"></td>
+						<td width="25px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+					</tr>
+					<tr height="20px" style="font-size:12px;">
+						<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+					</tr>
+					<tr class="add-border" style="font-size:16px;">
+						<td colspan="4">Content(16px)</td>
+					</tr>
+					<tr>					
+						<td colspan="4">
+							<table style="width:450px; height:50px;" class="add-border">
+								<tr>
+									<td><img src="img/5.jpg" class="post-photo"/></td>
+									<td><img src="img/6.jpg" class="post-photo"/></td>
+									<td><img src="img/7.jpg" class="post-photo"/></td>
+									<td><img src="img/8.png" class="post-photo"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" width="150px" style="font-size:13px;">悬赏金额（10金币）</td>
+						<td><button class="delete-post">删除</button></td>
+						<td>
+							<table style="width:250px; font-size:14px;" >
+								<tr>
+									<td>阅读量（0）</td>
+									<td><a href="###" class="open-reply">评论（0）</a></td>
+									<td><a href="###">转发（0）</a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+						<td colspan="2" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+						<td rowspan="2"><button class="distrubution">分配悬赏金</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-3.jpg" class="layer-portrait"/></td>
+						<td colspan="2" style="font-size:14px;"><a href="###">Hu-Wei</a>:厉害了我的哥</td>
+						<td rowspan="2"><button class="distrubution">分配悬赏金</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+				</table>
+				<table class="host-container">
+					<tr height="25px">
+						<td width="50px" class="add-border" rowspan="2">
+							<img src="img/user-3.jpg" class="host-portrait"/>
+						</td>
+						<td class="host-name"><a href="###">Hu-Wei</a></td>
+						<td class="host-level"><img src="img/host-Lv.1.png"></td>
+						<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+					</tr>
+					<tr height="20px" style="font-size:12px;">
+						<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+					</tr>
+					<tr class="add-border" style="font-size:16px;">
+						<td colspan="4">Content(16px)</td>
+					</tr>
+					<tr>					
+						<td colspan="4">
+							<table style="width:450px; height:50px;" class="add-border">
+								<tr>
+									<td><img src="img/5.jpg" class="post-photo"/></td>
+									<td><img src="img/6.jpg" class="post-photo"/></td>
+									<td><img src="img/7.jpg" class="post-photo"/></td>
+									<td><img src="img/8.png" class="post-photo"/></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:13px;">悬赏金额（10金币）</td>
+						<td>
+							<table style="width:250px; font-size:14px;" >
+								<tr>
+									<td>阅读量（0）</td>
+									<td><a href="###" class="open-reply">评论（0）</a></td>
+									<td><a href="###">转发（0）</a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+						<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+					<tr>
+						<td rowspan="2"><img src="img/user-1.jpg" class="layer-portrait"/></td>
+						<td colspan="2" style="font-size:14px;"><a href="###">Superlin</a>:厉害啦啦</td>
+						<td rowspan="2"><button class="delete-reply">删除</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+			<div id="person-section">
+				<div id="user-menu" class="kanpu-menu">
+					<ul>
+						<li><a href="###" id="discuss-post">主题帖</a></li>
+						<li><a href="###" id="discuss-QA">主题问答</a></li>
+						<li><a href="###" id="discuss-join-post">参与的帖子</a></li>
+						<li><a href="###" id="discuss-join-QA">参与的问答</a></li>
+					</ul>			
+				</div>
+				<div id="post-area" class="discuss-area">
+					<div class="triangle-5"></div>				
+					<table class="host-container">
+						<tr height="25px">
+							<td width="50px" rowspan="2" class="add-border">
+								<img src="img/user-1.jpg" class="host-portrait"/>
+							</td>
+							<td class="host-name"><a href="">Superlin</a></td>
+							<td class="host-level"><img src="img/host-Lv.3.png"></td>
+							<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+						</tr>
+						<tr height="20px" style="font-size:12px;">
+							<td colspan="3" class="add-border">2017-5-17 23:32:06</td>
+						</tr>
+						<tr class="add-border" style="font-size:16px;">
+							<td colspan="4">#今天我邂逅了那个她#今天下课后，日常一饭，排队的时候，忽然。。。</td>
+						</tr>
+						<tr>					
+							<td colspan="4">
+								<table style="width:450px; height:50px;" class="add-border">
+									<tr>
+										<td><img src="img/1.jpg" class="post-photo"/></td>
+										<td><img src="img/2.jpg" class="post-photo"/></td>
+										<td><img src="img/3.jpg" class="post-photo"/></td>
+										<td><img src="img/4.png" class="post-photo"/></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3"><button class="delete-post">删除</button></td>
+							<td>
+								<table style="width:250px; font-size:14px;">
+									<tr>
+										<td>阅读量（0）</td>
+										<td><a href="###" class="open-reply">评论（2）</a></td>
+										<td><a href="###">转发（0）</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+							<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-3.jpg" class="layer-portrait"/></td>
+							<td colspan="3" style="font-size:14px;"><a href="###">Hu-Wei</a>:厉害了我的哥</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-1.jpg" class="layer-portrait"/></td>
+							<td colspan="2" style="font-size:14px;"><a href="###">Hu-Wei</a>:当然啦</td>
+							<td rowspan="2"><button class="delete-reply">删除</button></td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+					</table>
+					<table class="host-container">
+						<tr height="25px">
+							<td width="50px" class="add-border" rowspan="2">
+								<img src="img/user-1.jpg" class="host-portrait"/>
+							</td>
+							<td class="host-name"><a href="###">Superlin</a></td>
+							<td class="host-level"><img src="img/host-Lv.3.png"></td>
+							<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+						</tr>
+						<tr height="20px" style="font-size:12px;">
+							<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+						</tr>
+						<tr class="add-border" style="font-size:16px;">
+							<td colspan="4">Content(16px)</td>
+						</tr>
+						<tr>					
+							<td colspan="4">
+								<table style="width:450px; height:50px;" class="add-border">
+									<tr>
+										<td><img src="img/5.jpg" class="post-photo"/></td>
+										<td><img src="img/6.jpg" class="post-photo"/></td>
+										<td><img src="img/7.jpg" class="post-photo"/></td>
+										<td><img src="img/8.png" class="post-photo"/></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3"><button class="delete-post">删除</button></td>
+							<td>
+								<table style="width:250px; font-size:14px;">
+									<tr>
+										<td>阅读量（0）</td>
+										<td><a href="###" class="open-reply">评论（2）</a></td>
+										<td><a href="###">转发（0）</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+							<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-3.jpg" class="layer-portrait"/></td>
+							<td colspan="3" style="font-size:14px;"><a href="###">Hu-Wei</a>:厉害了我的哥</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+					</table>				
+				</div>
+				<div id="QA-area" class="discuss-area">
+					<div class="triangle-5"></div>	
+					<table class="host-container">
+						<tr height="25px">
+							<td width="50px" class="add-border" rowspan="2">
+								<img src="img/user-1.jpg" class="host-portrait"/>
+							</td>
+							<td class="host-name"><a href="###">Superlin</a></td>
+							<td class="host-level"><img src="img/host-Lv.1.png"></td>
+							<td width="25px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+						</tr>
+						<tr height="20px" style="font-size:12px;">
+							<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+						</tr>
+						<tr class="add-border" style="font-size:16px;">
+							<td colspan="4">Content(16px)</td>
+						</tr>
+						<tr>					
+							<td colspan="4">
+								<table style="width:450px; height:50px;" class="add-border">
+									<tr>
+										<td><img src="img/5.jpg" class="post-photo"/></td>
+										<td><img src="img/6.jpg" class="post-photo"/></td>
+										<td><img src="img/7.jpg" class="post-photo"/></td>
+										<td><img src="img/8.png" class="post-photo"/></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="150px" style="font-size:13px;">悬赏金额（10金币）</td>
+							<td><button class="delete-post">删除</button></td>
+							<td>
+								<table style="width:250px; font-size:14px;" >
+									<tr>
+										<td>阅读量（0）</td>
+										<td><a href="###" class="open-reply">评论（0）</a></td>
+										<td><a href="###">转发（0）</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+							<td colspan="2" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+							<td rowspan="2"><button class="distrubution">分配悬赏金</button></td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-3.jpg" class="layer-portrait"/></td>
+							<td colspan="2" style="font-size:14px;"><a href="###">Hu-Wei</a>:厉害了我的哥</td>
+							<td rowspan="2"><button class="distrubution">分配悬赏金</button></td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+					</table>
+				</div>
+				<div id="join-post-area" class="discuss-area">	
+					<div class="triangle-5"></div>					
+					<table class="host-container">
+						<tr height="25px">
+							<td width="50px" class="add-border" rowspan="2">
+								<img src="img/user-2.jpg" class="host-portrait"/>
+							</td>
+							<td class="host-name"><a href="###">Li-Na</a></td>
+							<td class="host-level"><img src="img/host-Lv.1.png"></td>
+							<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+						</tr>
+						<tr height="20px" style="font-size:12px;">
+							<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+						</tr>
+						<tr class="add-border" style="font-size:16px;">
+							<td colspan="4">Content(16px)</td>
+						</tr>
+						<tr>					
+							<td colspan="4">
+								<table style="width:450px; height:50px;" class="add-border">
+									<tr>
+										<td><img src="img/5.jpg" class="post-photo"/></td>
+										<td><img src="img/6.jpg" class="post-photo"/></td>
+										<td><img src="img/7.jpg" class="post-photo"/></td>
+										<td><img src="img/8.png" class="post-photo"/></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3"></td>
+							<td>
+								<table style="width:250px; font-size:14px;" >
+									<tr>
+										<td>阅读量（0）</td>
+										<td><a href="###" class="open-reply">评论（0）</a></td>
+										<td><a href="###">转发（0）</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+							<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-1.jpg" class="layer-portrait"/></td>
+							<td colspan="2" style="font-size:14px;"><a href="###">Superlin</a>:厉害啦啦</td>
+							<td rowspan="2"><button class="delete-reply">删除</button></td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+					</table>
+				</div>
+				<div id="join-QA-area" class="discuss-area">
+					<div class="triangle-5"></div>
+					<table class="host-container">
+						<tr height="25px">
+							<td width="50px" class="add-border" rowspan="2">
+								<img src="img/user-3.jpg" class="host-portrait"/>
+							</td>
+							<td class="host-name"><a href="###">Hu-Wei</a></td>
+							<td class="host-level"><img src="img/host-Lv.1.png"></td>
+							<td width="250px"><img src="medal"/><img src="medal"/><img src="medal"/></td>
+						</tr>
+						<tr height="20px" style="font-size:12px;">
+							<td colspan="3" class="add-border">2017-X-XX XX:XX:XX(12px)</td>
+						</tr>
+						<tr class="add-border" style="font-size:16px;">
+							<td colspan="4">Content(16px)</td>
+						</tr>
+						<tr>					
+							<td colspan="4">
+								<table style="width:450px; height:50px;" class="add-border">
+									<tr>
+										<td><img src="img/5.jpg" class="post-photo"/></td>
+										<td><img src="img/6.jpg" class="post-photo"/></td>
+										<td><img src="img/7.jpg" class="post-photo"/></td>
+										<td><img src="img/8.png" class="post-photo"/></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:13px;">悬赏金额（10金币）</td>
+							<td>
+								<table style="width:250px; font-size:14px;" >
+									<tr>
+										<td>阅读量（0）</td>
+										<td><a href="###" class="open-reply">评论（0）</a></td>
+										<td><a href="###">转发（0）</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-2.jpg" class="layer-portrait"/></td>
+							<td colspan="3" style="font-size:14px;"><a href="###">Li-na</a>:厉害了我的哥</td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:10px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="img/user-1.jpg" class="layer-portrait"/></td>
+							<td colspan="2" style="font-size:14px;"><a href="###">Superlin</a>:厉害啦啦</td>
+							<td rowspan="2"><button class="delete-reply">删除</button></td>
+						</tr>
+						<tr>
+							<td colspan="3" style="font-size:8px;text-align:left;" class="add-border">2017-5-17 23:40:06</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="container-menu">
+				<div id="menu-public" class="mid-menu"></div>
+				<div class="menu-pillar"></div>
+				<div id="menu-person" class="mid-menu"></div>
+				<div class="menu-pillar"></div>
+				<div id="menu-plan" class="mid-menu"></div>
+				<div class="menu-pillar"></div>
+				<div id="menu-chat" class="mid-menu"></div>
+			</div>
+			<div id="user-plan">
+				<div id="triangle-2"></div>
+				<div class="plan-container">
+					<div class="plan-menu-1">
+						<ul>
+							<li id="life-plan-button">生活</li>
+							<li id="study-plan-button">学习</li>
+						</ul>
+					</div>
+					<div id="triangle-3"></div>
+					<div id="life-plan">
+						<div class="life-plan-menu">
+							<ul>
+								<li id="life-new-plan-menu" class="plan-menu">最新记录</li>
+								<li id="life-history-plan-menu" class="plan-menu">历史记录</li>
+							</ul>
+						</div>
+						<div id="life-new-plan">
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">刚买的兰州牛肉面将于11:50-12:30送达</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">刚买的兰州牛肉面将于11:50-12:30送达</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">刚买的兰州牛肉面将于11:50-12:30送达</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">刚买的兰州牛肉面将于11:50-12:30送达</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div id="life-history-plan">
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">刚买的兰州牛肉面将于11:50-12:30送达</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div id="study-plan">
+						<div class="study-plan-menu">
+							<ul>
+								<li id="study-new-plan-menu" class="plan-menu">最新记录</li>
+								<li id="study-history-plan-menu" class="plan-menu">历史记录</li>
+							</ul>
+						</div>
+						<div id="study-new-plan">
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">学习Java</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">学习学习我爱学习</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div id="study-history-plan">
+							<table>
+								<tr>
+									<td colspan="2"><img src="标签1"/><img src="标签2"/>（标签）</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="font-size:13px;text-align:left;">学习学习我爱学习</td>
+								</tr>
+								<tr>
+									<td><button class="delete-plan">删除</button></td>
+									<td style="font-size:10px;text-align:right;color:rgb(153,153,153);">
+										2017-5-18 11:30 广东外语外贸大学
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<button id="add-plan-button">添加计划+</button>
+					<button id="front-page" class="page-button">&lt;</button>
+					<button id="back-page" class="page-button">&gt;</button>			
+				</div>
+			</div>
+			<div id="user-chat">
+				<div id="triangle-4"></div>
+				<div id="list-top">
+					<a href="my-information.html"><img src="img/setting-button.png" class="header-button"/></a>
+					<a href="###"><img src="img/add-friend-button.png" id="add-friend" class="header-button"/></a>
+				</div>
+				<div id="chat-list">
+					<table id="friend-1" class="friend-box">
+						<tr>
+							<td rowspan="2" width="45px"><img src="img/user-2.jpg" class="friend-portrait"/></td>
+							<td style="color:#FF0000;" width="160px" height="15px">Li-Na</td>
+							<td style="font-size:10px; color:#787878;">12:15</td>
+						</tr>
+						<td style="font-size:13px; color:#FF0000;">hello</td>
+						<td><div class="new-message">1</div></td>
+					</table>
+					<table id="friend-2" class="friend-box">
+						<tr>
+							<td rowspan="2" width="45px"><img src="img/user-3.jpg" class="friend-portrait"/></td>
+							<td style="color:#FF0000;" width="160px" height="15px">Hu-Wei</td>
+							<td style="font-size:10px; color:#787878;">12:15</td>
+						</tr>
+						<td style="font-size:13px; color:#FF0000;">hello</td>
+						<td><div class="new-message">1</div></td>
+					</table>
+				</div>
+				<div id="chat-box">
+					<div class="chat-box-top">
+						<button id="return-list" class="button">&lt;</button>
+						<div id="Friend-Name">Friend-Name</div>
+					</div>
+					<div class="chat-box-content">
+						<div class="message-box">
+							<table class="friend-message">
+								<tr>
+									<td><img src="img/user-2.jpg" class="chat-portrait"/></td>
+									<td><div class="friend-message-triangle"></div></td>
+									<td>
+										<div class="one-message-box">hello</div>
+									</td>
+								</tr>
+							</table><br><br>
+							<table class="user-message">
+								<tr>
+									<td><div class="one-message-box">hello</div></td>
+									<td><div class="user-message-triangle"></div></td>
+									<td><img src="img/user-1.jpg" class="chat-portrait"/></td>
+								</tr>
+							</table>
+						</div>
+						<div class="message-menu">
+							<button style="background: url(img/emoji-button.png);background-repeat: no-repeat;">表情</button>
+						</div>
+						<div class="input-message">
+							<textarea></textarea>
+						</div>
+						<button id="send-message" class="button">发送</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<a href="###">关于侃噗</a> | <a href="###">广告服务</a> | <a href="###">免责声明</a> | <a href="###">版权隐私</a> | 
+		<a href="###">联系我们</a><br>
+		Quanta量子服务中心·请开始你们的表演团队
+	</footer>
+</body>
+</html>

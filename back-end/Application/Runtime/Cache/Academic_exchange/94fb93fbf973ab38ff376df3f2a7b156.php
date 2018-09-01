@@ -1,0 +1,153 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../Public/Css/UserManagement/myhome.css"/>
+    <script src="../../../Public/Js/myhome.js"></script>
+    <!-- 表情包插件 -->
+    <link rel="stylesheet" href="../../../Public/lib/css/jquery.mCustomScrollbar.min.css"/>
+    <link rel="stylesheet" href="../../../Public/dist/css/jquery.emoji.css"/>
+    <script src="../../../Public/lib/script/jquery.min.js"></script>
+    <script src="../../../Public/lib/script/jquery.mCustomScrollbar.min.js"></script>
+    <script src="../../../Public/dist/js/jquery.emoji.min.js"></script>
+    <!-- 表情包插件 -->
+</head>
+<body>
+<div id="mask">
+</div>
+<div id="header">
+    <div class="header-menu">
+        <a href="###"><img src="../../../Public/Image/UserManagement/exit-button.png" class="header-button"/></a>
+        <a href="###"><img src="../../../Public/Image/UserManagement/setting-button.png" class="header-button"/></a>
+        <a href="###"><img src="../../../Public/Image/UserManagement/information-button.png" class="header-button"/></a>
+        <a href="###"><img src="../../../Public/Image/UserManagement/person-button.png" class="header-button"/></a>
+        <div id="header-search">
+            <div id="search-1"><input type="text" name="search" placeholder="大家都在搜索..." id="search"/></div>
+            <div id="search-2"><a href="###"><img src="../../../Public/Image/UserManagement/search-button.png" id="search-button"/></a></div>
+        </div>
+    </div>
+</div>
+<div id="container-bg">
+    <div id="container">
+        <div class="user-zone">
+            <img src="<?php echo ($path); ?>"  id="user-portrait">
+            <div id="user-name"><?php echo ($nick_name); ?></div>
+            <div id="user-level">Lv. <?php echo ($level); ?> (距离下一等级还需要<?php echo ($empirical_value); ?>经验）</div>
+            <div class="user-Signature">个性签名</div>
+            <form action="" method="">
+                <div class="submit-button" id="Signature-change">修改</div>
+                <div id="Signature" border="0"><?php echo ($personal_signature); ?></div>
+            </form>
+
+            <!-- 个性签名修改 -->
+            <form action="<?php echo U('modify_personal_signature');?>" method="post" enctype="multipart/form-data">
+                <div id="Signature-change-input">
+                    <div id="change-input-top">请输入修改内容：</div>
+                    <div id="change-input-triangle"></div>
+                    <textarea name="personal_signature"></textarea>
+                    <button class="submit-button" id="Signature-change-off">取消</button>
+                    <input type="submit" value="确定" class="submit-button" id="Signature-change-affirm" name="confirm"/>
+                </div>
+            </form>
+            <!-- 个性签名修改 -->
+
+            <div class="Medal">勋</br>章</br>馆</div>
+            <table id="user-Medal" border="1px">
+                <tr>
+                    <td><img src="" class="medal-picture"/>勋章图</td>
+                    <td><img src="" class="medal-picture"/>勋章图</td>
+                    <td><img src="" class="medal-picture"/>勋章图</td>
+                </tr>
+            </table>
+        </div>
+        <div class="user-share">
+            <div id="triangle-1"></div>
+            <div class="question">今天的你，又有怎样的故事？</div>
+            <img src="../../../Public/Image/UserManagement/share-top.png" id="share-top"/>
+            <form action="<?php echo U('post');?>" method="post">
+                <textarea id="editor" contenteditable="true" name="content"></textarea>
+                <input type="submit" value="发表" class="submit-button" id="share-text-submit"/>
+            </form>
+            <ul>
+                <li ><button id="btn" class="btn btn-sm btn-default" style="background: url(../../../Public/Image/UserManagement/emoji-button.png);background-repeat: no-repeat;">表情</button></li>
+                <li style="background: url(../../../Public/Image/UserManagement/video-button.png);background-repeat: no-repeat;"><a href="###">视频</a></li>
+                <li style="background: url(../../../Public/Image/UserManagement/photo-button.png);background-repeat: no-repeat;"><a href="###">图片</a></li>
+                <li style="background: url(../../../Public/Image/UserManagement/link-button.png);background-repeat: no-repeat;"><a href="###">链接</a></li>
+            </ul>
+        </div>
+        <div class="user-menu">
+            <ul>
+                <li><a href="../../Academic_exchange/UserManagement/myhome" id="discuss-post">主题帖</a></li>
+                <li><a href="###" id="discuss-QA">主题问答</a></li>
+                <li><a href="../../Academic_exchange/UserManagement/get_join_post" id="discuss-join-post">参与的帖子</a></li>
+                <li><a href="###" id="discuss-join-QA">参与的问答</a></li>
+            </ul>
+        </div>
+
+        <div id="join-post-area">
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="discuss-area" id="join-post-area-1">
+                    <img src="{vo.path}" id="host-portrait"/>
+                    <table id="host-container" border="1px">
+                        <tr height="25px" style="font-size:15px;">
+                            <td width="35px"></td>
+                            <td>{vo.nick_name}</td>
+                            <td><?php echo ($vo["level"]); ?></td>
+                            <td width="250px"><?php echo ($vo["medal"]); ?></td>
+                        </tr>
+                        <tr height="20px" style="font-size:12px;">
+                            <td width="35px"></td>
+                            <td colspan="3"><?php echo ($vo["release_time"]); ?></td>
+                        </tr>
+                        <tr height="20px" style="font-size:18px; text-align:center;">
+                            <td colspan="4"><?php echo ($vo["title"]); ?></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" height="75px" style="font-size:14px; text-align:center;"><?php echo ($content); ?></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <table style="width:450px; height:50px;"  border="1px">
+                                    <tr>
+                                        <td><img src=""/>图片1</td>
+                                        <td><img src=""/>图片2</td>
+                                        <td><img src=""/>图片3</td>
+                                        <td><img src=""/>图片4</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td>
+                                <table style="width:250px; font-size:14px;" >
+                                    <tr>
+                                        <td>阅读量（0）</td>
+                                        <td>评论（{vo.comment_num}）</td>
+                                        <td>转发（0）</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div><?php endforeach; endif; else: echo "" ;endif; ?>
+        </div>
+
+
+
+        <div id="container-menu">
+            <div id="menu-discuss"></div>
+            <div class="menu-pillar"></div>
+            <div id="menu-chat"></div>
+            <div class="menu-pillar"></div>
+            <div id="menu-plan"></div>
+            <div class="menu-pillar"></div>
+            <div id="menu-friend"></div>
+        </div>
+        <div class="user-plan">
+            <div id="triangle-2"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

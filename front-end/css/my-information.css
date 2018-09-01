@@ -1,0 +1,388 @@
+body{
+	font-family: 微软雅黑;
+}
+
+body,ul,li {
+    margin:0;
+    padding:0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+button{
+	color: #ffffff;
+	font-size: 13px;
+	font-family: 微软雅黑;
+	line-height: 23px;
+	text-align: center;
+	width: 75px;
+	height: 25px;
+	background: rgb(255,51,51);
+	border: none;
+	cursor: pointer;
+}
+
+textarea{
+	resize: none;
+}
+
+/*弹出框遮罩层*/
+#mask{
+	background: #000;
+	opacity: 0.75;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index:100;
+	display: none;
+}
+/*弹出框遮罩层*/
+
+.pop-up-box{
+	width: 400px;
+	height: 180px;
+	padding: 10px;
+	background: rgb(255,255,255);
+	z-index:101;
+	position: fixed;
+	display: none;
+}
+
+.close-box{
+	width: 40px;
+	height: 40px;	
+	background: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left:370px;
+	cursor: pointer;
+}
+
+.pop-up-box table{
+	text-align: right;
+}
+
+.pop-up-box button{
+	float: right;
+}
+
+#information-change-box #close-information-change{
+	left:680px;
+}
+
+#information-change-box{
+	width: 720px;
+	height: 280px;
+}
+
+#information-change-box table{
+	border-collapse: separate;
+	border-spacing:5px 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#information-change-box button{
+	float: right;
+	margin-right: 20px;
+}
+
+#information-change-box select,input{
+	width: 153px;
+	height: 23px;
+}
+
+#change-portrait-box{
+	width: 480px;
+	height: 300px;
+	background: none;
+}
+
+#change-portrait-box #close-change-portrait{
+	left: 700px;
+	top: -30px;
+}
+
+#change-portrait-box #clipArea {
+	margin: 20px;
+	height: 300px;
+}
+
+#change-portrait-box #file,#clipBtn {
+	margin: 20px;
+}
+
+#change-portrait-box #confirm-change-portrait{
+	margin-top: 20px;
+}
+
+#change-portrait-box #view {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 120px;
+	left: 500px;
+}
+
+#pwd-change-box{
+	height: 200px;
+}
+
+#pwd-change-box table{
+	position: relative;
+	left: 50px;
+	margin-bottom: 10px;
+}
+
+#money-charge-box .input-money-charge{
+	width: 400px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.confirm-delete{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+header{
+	min-width: 940px;
+	height: 300px;
+	background: url(../img/header-bg.png);
+	background-size: 100% auto;
+}
+
+header .header-menu{
+	width: 100%;
+	height: 50px;
+	margin:0 auto;
+	position: relative;
+}
+
+header .header-menu #search{
+	font-family: 微软雅黑;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	background: none;
+	border: 1px solid #808080;
+}
+
+header .header-menu #header-search{
+	width: 450px;
+	height: 50px;
+	position: relative;
+	float: right;
+}
+
+header .header-menu #search-1{
+	width: 450px;
+	height: 30px;
+	position: relative;
+	top: 5px;
+	z-index: 99;
+}
+header .header-menu #search-2{
+	z-index: 100;
+	position: relative;
+	top:-35px;
+	float: right;
+}
+
+header .header-menu .header-button{
+	float: right;
+}
+
+#container-bg{
+	min-width: 940px;
+	width: 100%;
+	height: auto;
+	background: url(../img/container-bg.png);
+	background-size: 100% auto;
+}
+
+#container{
+	width: 940px;
+	height: auto;
+	position: relative;
+	margin:0 auto;
+	padding-bottom: 100px;
+}
+
+
+#container #user-portrait{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 30px;
+	top: -80px;
+}
+
+#container #user-name{
+	width: 100px;
+	height: 35px;
+	font-size:25px;
+	position: absolute;
+	left: 200px;
+	top:-40px;
+	border:1px solid #000000;
+	border-width:1px 0; 
+}
+
+#container #change-portrait{
+	position: absolute;
+	left: 200px;
+	top:10px;
+}
+
+#container #container-menu{
+	width: 70px;
+	height: auto;
+	position: absolute;
+	left: 70px;
+	top: 80px;
+}
+
+#container #container-menu #menu-pillar-2{
+	height: 135px;
+}
+
+#container #container-menu #menu-pillar-3{
+	height: 135px;
+}
+
+#container #container-menu .mid-menu{
+	margin:0 auto;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: rgba(80,80,80,.2);
+}
+
+#container #container-menu #menu-basic-information {
+}
+
+#container #container-menu .menu-pillar{
+	width: 2px;
+	height: 85px;
+	background: rgba(80,80,80,.2);
+	margin:5px auto;
+}
+
+#container #content{
+	width: 725px;
+	height: auto;
+	position: relative;
+	left: 200px;
+	top: 100px;
+}
+
+#container #content .content-box{
+	width: 705px;
+	height: auto;
+	position: relative;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: rgba(80,80,80,.2);
+}
+
+#container #content .content-triangle{
+	width:0;
+	height:0;   
+	border-top: 15px solid transparent;   
+	border-bottom: 15px solid transparent;   
+	border-right: 15px solid rgba(80,80,80,.2);
+	position: absolute;
+	left: -15px;
+	top: 70px;
+}
+
+.add-style{
+	min-width: 150px;
+}
+
+.add-style-1{
+	min-width: 120px;
+}
+
+.add-style-2{
+	min-width: 80px;
+}
+
+#container #content .content-headline{
+	height: 35px;
+	font-size: 20px;
+	position: relative;
+	left: 40px;
+}
+
+#container #content #basic-information-table{
+	position: relative;
+	left: 80px;
+}
+
+#container #content #basic-information-change{
+	position: relative;
+	left: 500px;
+	margin-top: 10px;
+}
+
+#container #content #pwd-change{
+	position: relative;
+	left: 320px;
+	margin-top: 10px;
+}
+
+
+#container #content #level-up-table{
+	position: relative;
+	left: 80px;
+}
+
+#container #content #money-charge{
+	position: relative;
+	left: 500px;
+	margin-top: 10px;
+}
+
+#container #friend-information table{
+	position: relative;
+	left: 80px;
+	font-size: 13px;
+	border-bottom: 1px solid #000000;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+	background: rgb(255,255,255);
+}
+
+footer a{
+	color: #000000;
+	font-size: 17px;
+	text-align: center;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}

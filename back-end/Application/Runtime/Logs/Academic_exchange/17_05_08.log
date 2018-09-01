@@ -1,0 +1,903 @@
+[ 2017-05-08T00:03:52+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/userInformationRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='15015806404' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('huwei','huwei','1596','student','0','0','0','grade one','15015806404','2017-05-08 00:03:52') [ RunTime:0.0716s ]
+
+[ 2017-05-08T19:17:22+08:00 ] ::1 /Campus/index.php/Academic_exchange/Controller/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024941s ]
+ERR: 无法加载控制器:Controller
+
+[ 2017-05-08T19:17:28+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 163 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011765s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002800s ]
+
+[ 2017-05-08T19:18:20+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='abc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='abc' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='abc' AND password='123' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-08T19:18:44+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0738s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='abc' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='abc' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='abc' AND password='123' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-08T19:19:21+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0824s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' AND password='123' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-08T19:20:16+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' AND password='123' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-08T19:22:03+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0812s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002119s ]
+
+[ 2017-05-08T19:22:21+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0858s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' AND password='123' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2017-05-08T19:22:38+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.1225s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' AND password='123' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2017-05-08T19:22:54+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0856s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' AND password='123' )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: status C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002369s ]
+
+[ 2017-05-08T19:23:11+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0692s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' AND password='123' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2017-05-08T19:23:40+08:00 ] ::1 /Campus/index.php/Academic_exchange/Controller/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+ERR: 无法加载控制器:Controller
+
+[ 2017-05-08T19:23:43+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0549s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297' AND password='123' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2017-05-08T19:35:06+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 168 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.3817s ]
+SQL: UPDATE `user_information` SET `status`='0' WHERE ( phone=''  ) [ RunTime:2.9798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002308s ]
+
+[ 2017-05-08T19:35:09+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 168 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.2151s ]
+SQL: UPDATE `user_information` SET `status`='0' WHERE ( phone=''  ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2017-05-08T19:41:26+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 178 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2017-05-08T19:41:48+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [2048] Declaration of Academic_exchange\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 178 行.
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484292' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-08T19:44:23+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2017-05-08T19:44:28+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2017-05-08T19:44:53+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2017-05-08T19:44:56+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2017-05-08T19:45:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2017-05-08T19:45:17+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002476s ]
+
+[ 2017-05-08T19:45:52+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2017-05-08T19:45:55+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 125 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004654s ]
+
+[ 2017-05-08T19:46:40+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000636s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-05-08T19:46:44+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 125 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2017-05-08T19:47:30+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2017-05-08T19:47:35+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 122 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2017-05-08T19:47:58+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002173s ]
+
+[ 2017-05-08T19:48:03+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003149s ]
+
+[ 2017-05-08T19:48:15+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001748s ]
+
+[ 2017-05-08T19:48:53+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000696s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2017-05-08T19:48:58+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [2] copy(../image/1.png): failed to open stream: No such file or directory C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2017-05-08T19:49:39+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2017-05-08T19:50:27+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2017-05-08T19:50:30+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+NOTIC: [2] copy(../image/2.png): failed to open stream: No such file or directory C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2017-05-08T19:50:51+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+NOTIC: [2] copy(../../image/2.png): failed to open stream: No such file or directory C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001799s ]
+
+[ 2017-05-08T19:51:19+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2017-05-08T19:52:04+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2017-05-08T19:52:08+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-05-08T19:53:15+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002395s ]
+
+[ 2017-05-08T19:53:29+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2017-05-08T19:53:30+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2017-05-08T19:53:37+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-05-08T19:54:02+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-05-08T19:54:06+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [8] Undefined variable: file_array C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 127 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2017-05-08T19:54:25+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+NOTIC: [8] Undefined variable: file_array C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 127 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2017-05-08T19:54:55+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2017-05-08T19:55:00+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/saveImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2017-05-08T20:16:22+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/userInformationRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002524s ]
+NOTIC: [8] Undefined index: real_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined index: nick_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined index: password C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined index: identity C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: grade C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-08T20:17:45+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/userInformationRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+NOTIC: [8] Undefined index: real_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined index: nick_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined index: password C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined index: identity C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: grade C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-05-08T20:36:08+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/userInformationRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011028s ]
+NOTIC: [8] Undefined index: real_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined index: nick_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined index: password C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined index: identity C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: grade C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-08T20:42:24+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020374s ]
+
+[ 2017-05-08T21:18:41+08:00 ] 192.168.166.233 /Campus/index.php/Academic_exchange/Index/userInformationRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014264s ]
+NOTIC: [8] Undefined index: real_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 76 行.
+NOTIC: [8] Undefined index: nick_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined index: password C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined index: identity C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: grade C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-05-08T21:19:21+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021420s ]
+
+[ 2017-05-08T21:19:25+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2017-05-08T21:22:23+08:00 ] 192.168.166.233 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-08T21:23:10+08:00 ] 192.168.166.233 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+

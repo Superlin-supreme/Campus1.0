@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/Login.css"/>
+	<script src="js/Login.js"></script>
+	<script src="http://www.jq22.com/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="mask">
+	</div>
+	<div id="content-bg">
+		<div id="content">
+			<div id="registration-box">
+				<div id="close-box"></div>
+				<div class="headline">
+					<img src="img/real-form.jpg" id="real-form"/>
+					<img src="img/cusp.jpg" id="cusp-1"/>
+					<img src="img/registrater.jpg" id="registrater"/>
+					<img src="img/cusp.jpg" id="cusp-2"/>
+					<img src="img/confirm.jpg" id="confirm"/>
+				</div>
+				<div id="real-information">
+					<table>
+						<tr>
+							<td class="add-style">姓名：</td>
+							<td><input type="text" id="real-name" value="" oninput="check_real_name()"/></td>
+							<td id="check-real-name-result"></td>
+						</tr>
+						<tr>
+							<td class="add-style">出生日期：</td>
+							<td><input type="text" id="born-data" value=""/></td>
+						</tr>
+						<tr>
+							<td class="add-style">学校：</td>
+							<td>
+								<select id="school">
+									<option value="广东外语外贸大学">广东外语外贸大学</option>
+									<option value="广东工业大学">广东工业大学</option>
+									<option value="中山大学">中山大学</option>
+									<option value="华南理工大学">华南理工大学</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="add-style">学院：</td>
+							<td>
+								<select id="college">
+									<option value="信息与科学技术学院">信息与科学技术学院</option>
+									<option value=">新闻与传播学院">新闻与传播学院</option>
+									<option value="经济与贸易学院">经济与贸易学院</option>
+									<option value="英语教育学院">英语教育学院</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="add-style">专业：</td>
+							<td>
+								<select id="major">
+									<option value="软件工程">软件工程</option>
+									<option value="计算机科学与技术">计算机科学与技术</option>
+									<option value="网络工程">网络工程</option>
+									<option value="电子商务">电子商务</option>
+									<option value="信息管理">信息管理</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="add-style">学号：</td>
+							<td><input type="text" id="student-number" value=""/></td>
+						</tr>
+						<tr>
+							<td class="add-style">手机号：</td>
+							<td><input type="text" id="phone" value="" oninput="check_phone()"/></td>
+							<td id="check-phone-result"></td>
+						</tr>
+						<tr>
+							<td class="add-style">邮箱：</td>
+							<td><input type="text" id="email" value=""/></td>
+						</tr>
+					</table>
+					<button id="move-registrater" class="button">下一步</button>
+				</div>
+				<div id="registrater-information">
+					<table>
+						<tr>
+							<td class="add-style">请输入密码：</td>
+							<td><input type="password" id="new-password" value=""/></td>
+						</tr>
+						<tr>
+							<td class="add-style">再次输入密码：</td>
+							<td><input type="password" id="confirm-password" value="" onchange="check_password()" /></td>
+							<td id="check-password-result"></td>
+						</tr>
+						<tr>
+							<td class="add-style">昵称：</td>
+							<td><input type="text" id="fade-name" value="" oninput="check_fade_name()" /></td>
+							<td id="check-fade-name-result"></td>
+						</tr>
+					</table>
+					<button id="back-real" class="button">上一步</button>
+					<button id="move-confirm" class="button">下一步</button>
+				</div>	
+				<div id="confirm-information">
+					<table>
+						<tr>
+							<td class="add-style">姓名：</td>
+							<td id="input-real-name" class="add-style-2"></td>
+							<td class="add-style">学校：</td>
+							<td id="input-school" class="add-style-2"></td>
+							<td class="add-style">学院：</td>
+							<td id="input-college" class="add-style-2"></td>
+						</tr>
+						<tr>
+							<td class="add-style">专业：</td>
+							<td id="input-major" class="add-style-2"></td>
+							<td class="add-style">学号：</td>
+							<td id="input-student-number" class="add-style-2"></td>
+							<td class="add-style">手机号：</td>
+							<td id="input-phone" class="add-style-2"></td>
+						</tr>
+						<tr>
+							<td class="add-style">昵称：</td>
+							<td id="input-fade-name" class="add-style-2"></td>
+							<td class="add-style">出生日期：</td>
+							<td id="input-born-data" class="add-style-2"></td>							
+							<td class="add-style">邮箱：</td>
+							<td id="input-email" class="add-style-2"></td>
+						</tr>
+						<tr>
+							<td colspan="6" height="80px"style="text-align:center;">你确认开通此账号吗？</td>
+						</tr>
+					</table>
+					<button id="back-registrater" class="button">上一步</button>
+					<button id="confirm-registrater" class="button">确认</button>
+				</div>				
+	        </div>
+			<div id="logo">
+				<img src="img/logo.png"/>
+			</div>
+			<div id="login-box">
+				<div class="headline-2"><img src="img/box-headline.png"/></div>
+				<div class="input-word">
+					<input type="text" name="account" value="" placeholder="学号/邮箱/手机号"/>
+					<input type="password" name="pwd" id="password" value="" placeholder="请输入密码"/>
+					<img src="img/eye.png" id="pwd-view">
+				</div>
+				<div class="user-select">
+					<a href="###" id="registration">快速注册</a>
+					<a href="###" id="forget-pwd">忘记密码</a>
+				</div>
+				<input type="submit" name="login" value="登 录" class="button"/>
+				<div class="tourists-enter"><a href="###">以游客身份进入</a></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

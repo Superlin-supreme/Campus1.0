@@ -1,0 +1,199 @@
+[ 2017-05-13T11:01:13+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:01:13+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004482s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:01:38+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:01:39+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:01:40+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:02:31+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:02:31+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:02:41+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:02:41+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:02:41+08:00 ] ::1 /Campus/index.php/Public/Image/UserManagement/user-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-05-13T11:02:49+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:02:49+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:03:41+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:03:41+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003703s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:03:41+08:00 ] ::1 /Campus/index.php/Public/Image/UserManagement/user-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002106s ]
+
+[ 2017-05-13T11:03:46+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:03:46+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:04:01+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:04:01+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004028s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:04:01+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:04:01+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-05-13T11:04:02+08:00 ] ::1 /Campus/index.php/Public/Css/UserManagement/myhome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-05-13T11:04:02+08:00 ] ::1 /Campus/index.php/Public/Js/myhome.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+ERR: 无法加载控制器:Js
+

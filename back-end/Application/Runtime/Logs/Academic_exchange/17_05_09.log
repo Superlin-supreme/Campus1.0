@@ -1,0 +1,1530 @@
+[ 2017-05-09T00:21:01+08:00 ] 192.168.166.233 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011678s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:25:22+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 129 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:27:42+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:37:03+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:39:18+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:46:25+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:50:29+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:51:36+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-05-09T00:51:43+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 136 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026282s ]
+
+[ 2017-05-09T00:51:53+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 136 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2017-05-09T00:51:54+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 136 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2017-05-09T00:51:59+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 136 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2017-05-09T00:53:13+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 145 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 149 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2017-05-09T00:53:13+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 145 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 149 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2017-05-09T00:53:22+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:54:21+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:55:10+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:55:41+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:56:12+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:56:32+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:56:33+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T00:57:05+08:00 ] 192.168.165.24 /Campus/index.php/Academic_exchange/Index/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002820s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 145 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 149 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004559s ]
+
+[ 2017-05-09T01:01:17+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T01:03:11+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T01:03:43+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003124s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T01:05:54+08:00 ] 192.168.166.201 /Campus/index.php/Academic_exchange/Index/saveImage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+NOTIC: [8] Undefined index: filename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 126 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 130 行.
+
+[ 2017-05-09T16:45:49+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2017-05-09T16:47:11+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.1159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-09T16:49:38+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2017-05-09T16:49:56+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.1529s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2017-05-09T16:51:24+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-05-09T16:51:40+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004682s ]
+NOTIC: [8] Undefined index: campus_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 80 行.
+NOTIC: [8] Undefined index: institute_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined index: major_id C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0468s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','abc','123','大学生',NULL,NULL,NULL,'大学二年级','13611484297','2017-05-09 16:51:40') [ RunTime:0.2497s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297'  ) LIMIT 1   [ RunTime:0.0211s ]
+NOTIC: [2] Illegal string offset 'user_id' C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 110 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 111 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2017-05-09T16:54:47+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2017-05-09T16:55:11+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8] Undefined index: fliename C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0359s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0689s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','Davie','123','大学生','0','0','0','大学二年级','13611484297','2017-05-09 16:55:10') [ RunTime:0.0647s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Illegal string offset 'user_id' C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 116 行.
+NOTIC: [2] copy(): Filename cannot be empty C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 117 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002602s ]
+
+[ 2017-05-09T16:56:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2017-05-09T16:56:48+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','Davie','123','大学生','0','0','0','大学二年级','13611484297','2017-05-09 16:56:48') [ RunTime:0.0579s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'user_id' C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2017-05-09T16:57:16+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484295' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','Davie','acb','大学生','0','0','0','大学二年级','13611484295','2017-05-09 16:57:16') [ RunTime:0.0678s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484295'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'user_id' C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2017-05-09T16:58:59+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2017-05-09T16:59:15+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','abc','123','大学生','0','0','0','大学二年级','13611484297','2017-05-09 16:59:15') [ RunTime:0.0592s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone=13611484297 ) LIMIT 1   [ RunTime:0.0067s ]
+NOTIC: [2] Illegal string offset 'user_id' C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2017-05-09T17:00:21+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002807s ]
+
+[ 2017-05-09T17:00:29+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0921s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484298' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0865s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','abc','123','大学生','0','0','0','大学二年级','13611484298','2017-05-09 17:00:29') [ RunTime:0.0907s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone=13611484298 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'user_id' C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003348s ]
+
+[ 2017-05-09T17:01:25+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0737s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484295' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','abc','123','大学生','0','0','0','大学二年级','13611484295','2017-05-09 17:01:25') [ RunTime:0.0688s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484295' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: feedback C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002435s ]
+
+[ 2017-05-09T17:03:17+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2017-05-09T17:03:46+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴俊标','abc','123','大学生','0','0','0','大学二年级','13611484297','2017-05-09 17:03:46') [ RunTime:0.0577s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2017-05-09T17:13:56+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2017-05-09T17:14:07+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0976s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.1126s ]
+
+[ 2017-05-09T17:14:50+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2017-05-09T17:15:05+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user_information` SET `password`='12234' WHERE ( phone='13611484297' ) [ RunTime:0.0745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001707s ]
+
+[ 2017-05-09T17:15:54+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2017-05-09T17:16:00+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0665s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='1234' WHERE ( phone='13611484297' ) [ RunTime:0.0823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-05-09T17:16:19+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2017-05-09T17:16:24+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0862s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone=13611484297 AND password=123 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2017-05-09T17:18:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002224s ]
+
+[ 2017-05-09T17:18:20+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002292s ]
+
+[ 2017-05-09T17:18:45+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2017-05-09T17:18:52+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0769s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2017-05-09T17:19:57+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2017-05-09T17:21:28+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2017-05-09T17:21:33+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0682s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2017-05-09T17:21:44+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-05-09T17:21:51+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2017-05-09T17:22:26+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2017-05-09T17:22:30+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0708s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2017-05-09T17:22:45+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002818s ]
+
+[ 2017-05-09T17:22:50+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' )  [ RunTime:0.0006s ]
+SQL: UPDATE `user_information` SET `password`='123' WHERE ( phone='13611484297' ) [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2017-05-09T17:23:41+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2017-05-09T17:23:47+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.1030s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' )  [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='1234' WHERE ( phone='13611484297' ) [ RunTime:0.0701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2017-05-09T17:24:29+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='123' )  [ RunTime:0.0007s ]
+SQL: UPDATE `user_information` SET `password`='1234' WHERE ( phone='13611484297' ) [ RunTime:0.2086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2017-05-09T17:24:50+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002330s ]
+
+[ 2017-05-09T17:24:56+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='1234' )  [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='1234' WHERE ( phone='13611484297' ) [ RunTime:0.0928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2017-05-09T17:25:14+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='1234' )  [ RunTime:0.0006s ]
+SQL: UPDATE `user_information` SET `password`='1234' WHERE ( phone='13611484297' ) [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2017-05-09T17:25:16+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2017-05-09T17:25:23+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0858s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='1234' )  [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='abc' WHERE ( phone='13611484297' ) [ RunTime:0.1504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2017-05-09T17:26:04+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='1234' )  [ RunTime:0.0005s ]
+SQL: UPDATE `user_information` SET `password`='abc' WHERE ( phone='13611484297' ) [ RunTime:0.0513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2017-05-09T17:30:11+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2017-05-09T17:30:40+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/userInformationRegistration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_information` WHERE ( phone='13611484295' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `major_information` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `major_information` WHERE ( major_name='软件工程' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `user_information` (`real_name`,`nick_name`,`password`,`identity`,`campus_id`,`institute_id`,`major_id`,`grade`,`phone`,`register_time`) VALUES ('吴','abc','123','大学生','0','0','0','大学三年级','13611484295','2017-05-09 17:30:39') [ RunTime:0.0649s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484295' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-09T20:05:04+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006853s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2017-05-09T20:31:27+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2017-05-09T20:31:58+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2017-05-09T20:32:06+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/modifyPassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+NOTIC: [8] Undefined index: password C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 134 行.
+NOTIC: [8] Undefined index: new_password C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `user_information` WHERE ( phone='13611484297'AND password='' )  [ RunTime:0.0006s ]
+SQL: UPDATE `user_information` SET `password`=NULL WHERE ( phone='13611484297' ) [ RunTime:0.1282s ]
+
+[ 2017-05-09T20:32:29+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002879s ]
+
+[ 2017-05-09T20:32:38+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/addPostInformation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+ERR: 非法操作:addPostInformation
+
+[ 2017-05-09T20:33:01+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/addPostInformation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+ERR: 非法操作:addPostInformation
+
+[ 2017-05-09T20:33:04+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2017-05-09T20:33:22+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0111s ]
+ERR: 1064:Erreur de syntaxe près de ''13611484297 ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297 ) LIMIT 1  
+ERR: 1064:Erreur de syntaxe près de ''13611484297 ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297 ) LIMIT 1  
+
+[ 2017-05-09T20:33:49+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2017-05-09T20:34:00+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0600s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0131s ]
+SQL: INSERT INTO `post` (`user_id`,`title`,`content`,`campus_id`,`institute_id`,`type`,`status`) VALUES ('15','真的VB地方','适当改变双当方','0','0','0','0') [ RunTime:0.0833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2017-05-09T20:34:42+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0129s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0118s ]
+SQL: INSERT INTO `post` (`user_id`,`title`,`content`,`campus_id`,`institute_id`,`type`,`status`) VALUES ('15','真的VB地方','适当改变双当方','0','0','0','0') [ RunTime:0.0542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2017-05-09T20:36:02+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0408s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='13611484297' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='广东外语外贸大学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='信息科学与技术学院' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0135s ]
+SQL: INSERT INTO `post` (`user_id`,`title`,`content`,`campus_id`,`institute_id`,`type`,`status`,`release_time`) VALUES ('15','真的VB地方','适当改变双当方','0','0','0','0','2017-05-09 20:36:02') [ RunTime:0.1004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-05-09T20:47:44+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-05-09T20:48:20+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2017-05-09T20:48:32+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0123s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 171 行.
+NOTIC: [8] Undefined index: campus_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 173 行.
+NOTIC: [8] Undefined index: institute_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: type C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0122s ]
+SQL: INSERT INTO `post` (`user_id`,`title`,`content`,`campus_id`,`institute_id`,`type`,`status`,`release_time`) VALUES (NULL,NULL,'你数据库你六年级女生vjis是三十年vjisdv你手机女时间你使劲实践v男似女是是公认的我个人吧',NULL,NULL,'0','0','2017-05-09 20:48:32') [ RunTime:0.1069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2017-05-09T20:49:20+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] Undefined index: phone C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 169 行.
+SQL: SHOW COLUMNS FROM `user_information` [ RunTime:0.0157s ]
+SQL: SELECT `user_id` FROM `user_information` WHERE ( phone='' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 171 行.
+NOTIC: [8] Undefined index: campus_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 173 行.
+NOTIC: [8] Undefined index: institute_name C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 174 行.
+NOTIC: [8] Undefined index: type C:\wamp\www\Campus\Application\Academic_exchange\Controller\IndexController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `campus_information` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `campus_information` WHERE ( campus_name='' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `institute_information` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `institute_information` WHERE ( institute_name='' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post` [ RunTime:0.0129s ]
+SQL: INSERT INTO `post` (`user_id`,`title`,`content`,`campus_id`,`institute_id`,`type`,`status`,`release_time`) VALUES (NULL,NULL,'你数据库你六年级女生vjis是三十年vjisdv你手机女时间你使劲实践v男似女是是公认的我个人吧',NULL,NULL,'0','0','2017-05-09 20:49:20') [ RunTime:0.0725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2017-05-09T20:49:30+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2017-05-09T20:49:38+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/comment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003985s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0109s ]
+SQL: INSERT INTO `comment` (`post_id`,`user_id`,`content`,`status`,`release_time`) VALUES ('5','15','任务各位各位伟哥哥我给我仍无功无过完给我各位各位我各位各位','0','2017-05-09 08:49:38') [ RunTime:0.1003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2017-05-09T20:52:22+08:00 ] ::1 /Campus/index.php/Academic_exchange/Index/comment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0136s ]
+SQL: INSERT INTO `comment` (`post_id`,`user_id`,`content`,`status`,`release_time`) VALUES ('5','15','任务各位各位伟哥哥我给我仍无功无过完给我各位各位我各位各位','0','2017-05-09 08:52:22') [ RunTime:0.0570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
